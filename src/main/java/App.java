@@ -10,17 +10,21 @@ public class App {
 
     static void logic(){
 
-        System.out.println("I will add up the numbers you give me until you enter 0\n");
+        System.out.println("I will add up the numbers you give me until you enter 0");
         System.out.print("Number: ");
 
         Scanner scan = new Scanner(System.in);
 
-        int userInput = scan.nextInt();
+        int userInput = 0;
+        userInput = scan.nextInt();
 
         int sum = 0;
+        sum += userInput;
+
+        System.out.println("The total so far is "+sum);
 
         while (userInput != 0){
-
+            userInput = scan.nextInt();
             sum += userInput;
 
         }
