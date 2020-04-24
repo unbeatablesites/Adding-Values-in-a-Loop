@@ -27,6 +27,7 @@ public class App {
             System.out.print("Number: ");
             userInput = scan.nextInt();
             sum += userInput;
+            System.out.println("The total so far is "+sum);
 
         }
         System.out.println("The total is "+sum);
