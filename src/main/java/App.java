@@ -9,6 +9,7 @@ public class App {
     static void logic(){
 
         System.out.println("I will add up the numbers you give me until you enter 0\n");
+        System.out.print("Number: ");
 
     }
 
