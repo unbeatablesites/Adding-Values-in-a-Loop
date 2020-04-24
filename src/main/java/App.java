@@ -17,7 +17,11 @@ public class App {
 
         int userInput = scan.nextInt();
 
+        int sum = 0;
+
         while (userInput != 0){
+
+            sum += userInput;
 
         }
 
