@@ -24,7 +24,7 @@ public class App {
             sum += userInput;
 
         }
-
+        System.out.println(sum);
     }
 
 }
