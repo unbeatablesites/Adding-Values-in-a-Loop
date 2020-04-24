@@ -30,6 +30,7 @@ public class App {
             sum += userInput;
 
             if(userInput == 0){
+                System.out.println();
                 System.out.println("The total is "+sum);
             }else{
                 System.out.println("The total so far is "+sum);
